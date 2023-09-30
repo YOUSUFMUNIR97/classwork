@@ -15,7 +15,7 @@ const Login = () => {
     const loginUser = () => {
         console.log(model);
         fbLogin(model).then((
-            res => {navigate("/dashboard")}
+            res => {navigate("/adminpanel")}
         )).catch((err)=>{
             console.log(err)
         })
